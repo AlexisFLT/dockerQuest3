@@ -1,0 +1,10 @@
+# Quels services as-tu besoin de déployer ?
+
+services:
+  server:
+    image: express-docker
+    ports:
+      - 5050:5000
+  mongodb:
+    image: mongo
+# Quel est le contexte du déploiement ?
